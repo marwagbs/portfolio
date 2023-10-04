@@ -1,0 +1,15 @@
+{
+    "sideBar": [
+            { "SLUG": "/", "id": "1", "text": "Accueil" , "icon":"fa-solid fa-house"},
+            { "SLUG": "/Competances", "id": "2", "text": "Mes compétances" , "icon":"fa-solid fa-mountain"},
+            { "SLUG": "/Portfolio", "id": "3", "text": "Portfolio" , "icon":"fa-regular fa-images"},
+            { "SLUG": "/Contact", "id": "4", "text": "Contact" , "icon":"fa-solid fa-address-card"}
+        ],
+        "socialNetwork":[
+            {"SLUG":"www.linkedin.com/in/marwa-ghedamssi-964512182", "icon":"fa-brands fa-linkedin"},
+            {"SLUG":"https://github.com/marwagbs", "icon":"fa-brands fa-github"},
+            {"SLUG":"https://instagram.com/marwagbs?igshid=OGQ5ZDc2ODk2ZA==", "icon":"fa-brands fa-instagram"}
+        
+        
+        ]
+}
