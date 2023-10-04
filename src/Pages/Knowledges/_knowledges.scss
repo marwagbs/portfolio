@@ -1,0 +1,97 @@
+@import "../../Styles/_variable";
+
+
+.knowledges{
+
+    h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            text-align: center;
+            color: $white;
+    
+            &:after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 40px;
+                height: 3px;
+                background: $color-5;
+                bottom: 0;
+                left: calc(50% - 20px);
+            }
+        }
+    .knowledgesContent{
+        min-height: $minHeight;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 18% 1fr 1fr  ;
+        grid-template-rows: 65% 35%;
+        grid-template-areas: 
+            "L L F"
+            "C V E"   ;
+        
+        .languages{
+            grid-area: L;
+            display: grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+            "L"
+            "F";
+            .languageDisplay{
+                grid-area: L;
+            }
+            .languageDisplay2{
+                grid-area: F;
+            }
+        }
+        .version{
+            grid-area: V;
+           
+        }
+        .frame{
+            grid-area: F;
+            
+        }
+        .environement{
+            grid-area: E;
+            
+        }
+        .cms {
+            grid-area: C;
+           
+        .bdd{
+            grid-area: B;
+           
+        }
+       
+    }
+}
+
+@media screen and (max-width:850px) {
+    .knowledgesContent {
+        grid-template-columns:  1fr !important;
+        grid-template-rows: 62% 30% !important;
+       
+
+}
+ .version,
+ .cms,
+ .environement {
+     height: 120%;
+     padding: 15px ;
+ }
+}
+@media screen and (max-width:580px){
+    .knowledgesContent {
+        display: block !important;
+       
+         }
+    }
+}
