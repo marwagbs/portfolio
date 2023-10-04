@@ -1,0 +1,42 @@
+{   
+    "frontEnd": [
+        {"id":1, "value":"HTML", "xp":"2"},
+        {"id":2, "value":" CSS3", "xp":"2"},
+        {"id":3, "value":" JavaScript", "xp":"1.8"}
+        
+    ],
+     "backEnd":[
+        {"id":4, "value":" PHP", "xp":"1.8"},
+        {"id":5, "value":" MYSQL", "xp":"1.8"}       
+     ],
+    "frameworks":[
+        {"id":1, "value":"React", "xp":"1.6"},
+        {"id":5, "value":" Symfony", "xp":"1.5"},
+        {"id":2, "value":" Boostrap", "xp":"1.5"},
+        {"id":3, "value":" Sass", "xp":"1"},
+        {"id":4, "value":" Material UI", "xp":"0.5"}
+        
+    ],
+    "environnement":[
+        {"id":1, "value":"Windows"},
+        {"id":2, "value":"Linux/ Ubuntu"},
+        {"id":3, "value":"Visual studio code"},
+        {"id":4, "value":"Apache"},
+        {"id":5, "value":"PHP MyAdmin"}
+    ],
+    "versions":[
+       {"id":1, "value":"GitHub"},
+       {"id":2, "value":"NPM"},
+       {"id":3, "value":"Composer"},
+       {"id":4, "value":"Webpack"}
+    ],
+    "cms":[
+        {"id":1, "value":"Wordpress"},
+        {"id":2, "value":"Directus"}
+    ],
+    "bdd":[
+        {"id":1, "value":"MySQL"},
+        {"id":2, "value":"Firebase"},
+        {"id":3, "value":"Mongo DB"}
+    ]
+}
