@@ -1,0 +1,47 @@
+ @import './Styles/__variable.scss';
+ 
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   margin: 1rem auto;
+  max-width: 1350px;
+   font-family: $font-1;
+   color:$white;
+    background-color: #eee;
+  //background: $black;
+ }
+
+ button {
+   cursor: pointer;
+ }
+
+ li {
+   list-style-type: none;
+
+ }
+ a{
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+ }
+ a:visited{
+  color:$black;
+ }
+ .home, .knowledges, .portfolio, .contact{
+  display: flex;
+  @media screen and (max-width: 850px){
+    display: block !important;
+  }
+ }
+
+ .homeContent, .knowledgesContent, .portfolioContent, .contactContent{
+    margin-left:.4rem ;
+   
+    @media screen and (max-width: 850px) {
+        margin-left: 0 !important;
+      }
+ }
