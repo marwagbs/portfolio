@@ -1,0 +1,100 @@
+@import "../../Styles/_variable";
+
+   .formContact{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin:100px 15px;
+      
+
+     
+   
+   img {
+      width: 92%;
+      padding:15px 10px;
+   }
+
+      .css-wb57ya-MuiFormControl-root-MuiTextField-root{
+         padding: 10px;
+      }
+     
+   h2 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #fff;
+   }
+ .css-1rcvvn7-MuiInputBase-root-MuiInput-root , .css-l4u8b9-MuiInputBase-root-MuiInput-root{
+   &::before{
+      border-bottom: 2px solid #fff !important;
+   }
+   &:after{
+      border-bottom: 2px solid $color-5 !important;
+   }
+   
+   
+
+ }
+      form input,
+      form textarea {
+         width: 100%;
+         color: #fff;
+         margin:  0 0 1px 0;
+         padding: 15px 26px;
+         font-weight: 500;
+         font-size: 18px;
+         letter-spacing: 0.8px;
+         transition: 0.3s ease-in-out;
+      }
+           
+      label{
+         color:#fff !important;
+         font-size: 16px !important;
+        
+      }
+      
+   form button {
+      font-weight: 700;
+      color: #000;
+      background-color: #fff;
+      padding: 14px 48px;
+      font-size: 18px;
+      margin-top: 25px;
+      border-radius: 0;
+      position: relative;
+      transition: 0.3s ease-in-out;
+   }
+
+    form button span {
+      z-index: 1;
+      position: relative;
+   }
+
+ form button:hover {
+      color: #fff;
+   }
+
+    form button::before {
+      content: "";
+      background: #AA367C;
+      width: 0;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transition: 0.3s ease-in-out;
+      color:#fff;
+      
+   }
+ form button:hover::before {
+      width: 100%;
+   }
+
+}
+
+@media screen and (max-width:850px) {
+   .formContact {
+      grid-template-columns: 1fr  !important;
+      grid-template-rows: 55% 20% !important;
+   }
+}
