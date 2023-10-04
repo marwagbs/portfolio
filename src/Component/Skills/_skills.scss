@@ -1,0 +1,84 @@
+@import "../../Styles/_variable";
+
+
+    .environement, .frame, .version,.languages, .cms, .bdd{
+        background: url("../../../public/media/img-bg.png") no-repeat left/cover;
+        border-radius: $borderRadius;
+        padding: .8rem;
+        color: $white;
+        margin:5px;
+    }
+    h3 {
+            font-size: 1.7rem;
+            margin: 1rem ;
+            font-family: $font-2;
+            color: #fff;
+            text-transform: uppercase;
+            
+    
+    
+        }
+
+        .years{
+            font-size: .65rem;
+            display: flex;
+            justify-content: space-between;
+            color: $white;
+            span{
+                width: 36%;
+                &:nth-child(2){
+                    text-align: center;
+                    width: 20%;
+                }
+                &:nth-child(3){
+                    text-align: right;
+                    width: 40%;
+                }
+            }
+        }
+        .languagesList{
+                padding-top: .5rem ;
+                
+            li{
+                color: $white;
+                font-size: 1.2rem;
+                
+                
+            }
+            .container {
+                background: #f2f3f5;
+                border-radius: 50px;
+            }
+           
+
+            .progressBar {
+                height:.8rem;
+                background: #f2f3f5;
+                border-radius: 50px;
+                margin-top: .2rem;
+                position: relative;
+                
+                &:after{
+                    content: "";
+                    background:$color-4;
+                    border-radius: 50px;
+                    height: .8rem;
+                    position: absolute;
+                    width: 0;
+                    animation: line 2s ease-out forwards;
+                    @keyframes line {
+                        to{
+                            width: 100%;
+                        }
+                        
+                        
+                    }
+
+                }
+               
+            }
+        }
+       
+.cms li, .environement li , .version li{
+    padding:5px;
+}
