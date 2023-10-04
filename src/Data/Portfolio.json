@@ -1,0 +1,181 @@
+{
+    "radio":[
+        {"id":1, "value":"javascript" },
+        {"id":2, "value":"css" },
+        {"id":3, "value":"react" },
+        {"id":4, "value":"php" },
+        {"id":5, "value":"symfony" }],
+    "portfolioData":[
+         {
+            "id":0,
+            "name":"TodoList",
+            "languages":["javascript"],
+            "languagesIcons":["fa-brands fa-js","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/TodoList.git",
+            "info":"Excercice réalisé en JS pendant mon temps libre qui permet d'ajouter/ supprimer une tache",
+            "picture":"./media/todolist.png"
+        },
+        {
+            "id":1,
+            "name":"Générateur de MP",
+            "languages":["javascript"],
+            "languagesIcons":["fa-brands fa-js","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/GenerateurMDB.git",
+            "info":"Excercice réalisé en JS pendant mon temps libre qui permet de gérer un mot de passe",
+            "picture":"./media/genMP.png"
+           
+        },
+        {
+            "id":2,
+            "name":"Générateur de bulles",
+            "languages":["javascript"],
+            "languagesIcons":["fa-brands fa-js","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/Generateur-de-bulles.git",
+            "info":"Excercice réalisé en JS pendant mon temps libre qui permet de gérer de bulles",
+            "picture":"./media/genBulles.png"
+            
+        },
+        {
+            "id":3,
+            "name":"Restaurant la malvasia",
+            "languages":["javascript", "php"],
+            "languagesIcons":["fa-brands fa-js","fa-brands fa-html5","fa-brands fa-css3-alt","fa-brands fa-php"],
+            "source":"",
+            "info":" Construction du site e-commerce au cours de ma formation afin de mettre en pratique les compétences que j'ai acquises au fil du temp.Il s'agit également du projet que j'ai présenté pour obtenir mon titre de Développeuse web et web mobile:",
+            "detail":[{"text":"création et gestion d'une base de données Mysql"},{"text":"Réalisation d'un CRUD complet en php"}, {"text":"Architecture MVC"}, {"text":"interaction avec le DOM grâce à javascript"}, {"text":"utilisation de localStorage"}],
+            "picture":"./media/projet7.png"
+        },
+         {
+            "id":4,
+            "name":"ArchiDesing",
+            "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet1.png"
+            
+        },
+         {
+            "id":5,
+            "name":"Carnets de voyage",
+             "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/Exercice-Carnets-de-voyage.git",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet2.png"
+            
+        },
+         {
+            "id":6,
+            "name":"Freshly Restaurant",
+             "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/Excercie-Freshly-Restaurant.git",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet5.png"
+            
+        },
+
+           {
+            "id":7,
+            "name":"New york city",
+             "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/New-York-City-html-css.git",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet4.png"
+           
+        },
+
+           {
+            "id":8,
+            "name":"Typhogtaphie",
+             "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/TYPOGRAPHIE-html-css.git",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet3.png"
+           
+        },
+        {
+            "id":9,
+            "name":"Cup of tea",
+             "languages":["html", "css"],
+             "languagesIcons":["fa-brands fa-html5","fa-brands fa-css3-alt"],
+            "source":"https://github.com/marwagbs/Cup-of-tea.git",
+            "info":"Transformation d'une maquette en site web avec HTML CSS dans le cadre de la formation 3W Academy",
+            "picture":"./media/projet6.png"
+           
+        },
+         {
+            "id":10,
+            "name":"Blog",
+            "languages":["php"],
+             "languagesIcons":["fa-brands fa-php"],
+            "source":"https://github.com/marwagbs/Creation-d-un-blog-en-PHP.git",
+            "info":"Création d'un blog en php avec l'utilisation de MVC dans le cadre de la formation 3W Academy ",
+            "picture":"./media/blog.png"
+           
+        },
+        {
+            "id":11,
+            "name":"Pointer",
+            "languages":["php"],
+             "languagesIcons":["fa-brands fa-php"],
+            "source":"https://github.com/marwagbs/Creation-d-un-blog-en-PHP.git",
+            "info":"Excercice qui montre l'utilisation de la POO dans le cadre de la formation 3W Academy ",
+            "picture":"./media/pointer.png"
+            
+        },
+         {
+            "id":12,
+            "name":"Blog",
+             "languages":["symfony"],
+             "languagesIcons":["fa-brands fa-symfony"],
+            "source":"https://github.com/marwagbs/Creation-d-un-blog-_Symfony.git",
+            "info":"Création d'un blog avec le framework symfony dans le cadre de la formation 3W Academy",
+            "picture":"./media/symfony-projet1.png"
+            
+        },
+         {
+            "id":13,
+            "name":"Booking",
+            "languages":["symfony"],
+             "languagesIcons":["fa-brands fa-symfony"],
+            "source":"https://github.com/marwagbs/Booking-symfony.git",
+            "info":"Création d'un booking avec le framework symfony dans le cadre de la formation 3W Academy",
+            "picture":"./media/symfony-projet2.png"
+           
+        },
+         {
+            "id":14,
+            "name":"MAD-UP",
+             "languages":["react"],
+             "languagesIcons":["fa-brands fa-react"],
+            "source":"https://mad-up.com/fr",
+            "info":"Modification de site officiel de l'entreprise mad-up avec le framework react dans le cadre de mon alternance",
+            "picture":"./media/mad-up.png"
+            
+        },
+         {
+            "id":15,
+            "name":"MADUP-Academy",
+            "languages":["react","php"],
+             "languagesIcons":["fa-brands fa-react", "fa-brands fa-php"],
+            "source":"https://www.mad-up-academy.com/fr/",
+            "info":"Création d'une application web mad-up Academy avec le framework react et le language php dans le cadre de mon alternance:",
+            "detail":[{"text":"création et gestion d'une base de données Mysql"},{"text":"Réalisation d'un CRUD complet en php"},{ "text":"Architecture MVC"},{"text":"Programmation POO"},{ "text":"création d'une API REST PHP utilisé par l'application React pour afficher les données"},{"text":"Utilsation de l'api Directus pour l'ajout de contenu sur le site"}],
+            "picture":"./media/mad-up-academy.png"
+        },
+        {
+            "id":16,
+            "name":"Portfolio",
+            "languages":["react"],
+             "languagesIcons":["fa-brands fa-react"],
+            "source":"https://www.mad-up-academy.com/fr/",
+            "info":"Création de mon portfolio avec le framework react",
+            "picture":"./media/portfolio.png"
+            
+        }
+    ]
+}
