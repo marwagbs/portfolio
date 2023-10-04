@@ -1,0 +1,13 @@
+@import "../../Styles/_variable";
+
+.contact {
+    .contactContent {
+
+        background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+        min-height: $minHeight;
+        width: 100%;
+        border-radius: $borderRadius;
+        position: relative;
+        overflow: hidden;
+    }
+}
