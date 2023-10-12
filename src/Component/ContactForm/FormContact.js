@@ -22,14 +22,22 @@ const validationSchema = yup.object({
     .string('Entrez votre message')
     .required('Le message est obligatoire'),
 });
-const hostName = "http://localhost/ReactphpSendMail/sendMail";
+const hostName = "https://marwagbs.fr/ReactphpSendMail/sendMail";
  const handleSubmit = (dataFavoris) => {
    axios
      .post(hostName, dataFavoris)
 
-     .then((response) => {
+     .then((reponse) => {
       
-       console.log(response.data)
+      if (reponse.status === 200) {
+        document.querySelector(".question").innerHTML =
+          "Merci pour votre message. Il a été envoyé";
+        
+      }else{
+        document.querySelector(".question").innerHTML =
+          "Une erreur s’est produite lors de l’envoi de votre message. Veuillez essayer à nouveau plus tard.";
+      }
+       console.log(reponse.data);
       
      })
      .catch((error) => {
@@ -140,6 +148,7 @@ const FormContact = () => {
               <span>Envoyer</span>
             </Button>
           </form>
+          <p className="question text"></p>
         </div>
       </div>
     </>
