@@ -172,7 +172,7 @@
             "name":"Portfolio",
             "languages":["react"],
              "languagesIcons":["fa-brands fa-react"],
-            "source":"https://www.mad-up-academy.com/fr/",
+            "source":"https://github.com/marwagbs/portfolio.git",
             "info":"Création de mon portfolio avec le framework react",
             "picture":"./media/portfolio.png"
             
